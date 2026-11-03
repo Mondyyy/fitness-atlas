@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17251f">
+<meta name="description" content="Osobní anatomický atlas a tréninkový deník.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<title>Fitness Atlas</title>
+</head>
+<body>
+<div class="app-shell">
+  <header class="topbar">
+    <div class="brand-mark">FA</div>
+    <div class="brand-copy"><span class="eyebrow">OSOBNÍ STUDIJNÍ ATLAS</span><strong>Fitness Atlas</strong></div>
+    <button class="icon-btn" id="profileBtn" aria-label="Nastavení">⚙</button>
+  </header>
+
+  <main id="view"></main>
+
+  <nav class="bottom-nav" aria-label="Hlavní navigace">
+    <button data-tab="home" class="nav-item active"><span>⌂</span><small>Domů</small></button>
+    <button data-tab="atlas" class="nav-item"><span>◉</span><small>Atlas</small></button>
+    <button data-tab="training" class="nav-item"><span>＋</span><small>Trénink</small></button>
+    <button data-tab="progress" class="nav-item"><span>↗</span><small>Progres</small></button>
+  </nav>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<div id="modalRoot"></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Fitness Atlas",
+  "short_name": "Fitness Atlas",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f1",
+  "theme_color": "#17251f",
+  "description": "Osobní anatomický atlas a tréninkový deník."
+}
